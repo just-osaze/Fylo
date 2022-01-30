@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.0.18"
+  },
+  "name": "fylo",
+  "description": "![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tailwindcss -i ./src/style.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
